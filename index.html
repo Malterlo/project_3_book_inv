@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Inventory</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Book Inventory</h1>
+    <p class="tagline"><strong>My reading journey: <span class="read-color">4 read</span>, <span class="in-progress-color">1 in progress</span>, <span class="to-read-color">2 up next</span>.</strong></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>TITLE</th>
+          <th>AUTHOR</th>
+          <th>CATEGORY</th>
+          <th>STATUS</th>
+          <th>RATING</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="to-read">
+          <td class="left main-cell">
+            <div class="book-image">
+              <!-- Piranesi -->
+              <img src="https://covers.openlibrary.org/b/isbn/9781635575637-M.jpg" alt="Piranesi book cover" />
+
+            </div>
+            <div class="book-info">
+            <strong>Piranesi</strong>
+            <p class="meta">Format: eBook | Source: Library | Priority: 1</p>
+            <p class="pitch">A mysterious tale of a man named Piranesi who uncovers the secrets of his lonely endless home.</p>
+            </div>
+          </td>
+          <td>Susanna Clarke</td>
+          <td>Fantasy</td>
+          <td><span class="status">To Read</span></td>
+          <td>
+            <span class="rate"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="to-read">
+          <td class="left main-cell">
+            <div class="book-image">
+           <!-- Braiding Sweetgrass -->
+<img src="https://covers.openlibrary.org/b/isbn/9781571313560-M.jpg" alt="Braiding Sweetgrass book cover" />
+            </div>
+            <div class="book-info">
+            <strong>Braiding Sweetgrass</strong>
+            <p class="meta">Format: Print | Source: Will buy | Priority: 2</p>
+            <p class="pitch">Scientific and indigenous knowledge systems are interwoven in the practice of traditional ecological knowledge. A deep exploration of the relationship between humans and the natural world.</p>
+          </td>
+          <td>Robin Wall Kimmerer</td>
+          <td>Nature</td>
+          <td><span class="status">To Read</span></td>
+          <td>
+            <span class="rate"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="in-progress">
+          <td class="left main-cell">
+            <div class="book-image">
+  <!-- When the War Was Over -->
+<img src="https://covers.openlibrary.org/b/isbn/9781891620003-M.jpg" alt="When the War Was Over book cover" />
+
+            </div>
+            <div class="book-info">
+            <strong>When the War Was Over</strong>
+            <p class="meta">Format: Print | Source: Bought | Priority: 3</p>
+            <p class="pitch">Elisabeth Becker's account of the Khmer revolution of 1975, before, during, and after the conflict. Heavy, personal, and grey.</p>
+          </td>
+          <td>Elizabeth Becker</td>
+          <td>History</td>
+          <td><span class="status">In Progress</span></td>
+          <td>
+            <span class="rate"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="read">
+          <td class="left main-cell">
+            <div class="book-image">
+         <!-- The Hobbit -->
+<img src="https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg" alt="The Hobbit book cover" />
+            </div>
+            <div class="book-info">
+            <strong>The Hobbit</strong>
+            <p class="meta">Format: Print | Source: Gift | Priority: 4</p>
+            <p class="pitch">Go on a grand journey through Middle-earth with Bilbo Baggins the hobbit and his peculiar companions.</p>
+          </td>
+          <td>J.R.R. Tolkien</td>
+          <td>Fantasy</td>
+          <td><span class="status">Read</span></td>
+          <td>
+            <span class="rate three"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="read">
+          <td class="left main-cell">
+            <div class="book-image">
+              <!-- Dune -->
+              <img src="https://covers.openlibrary.org/b/isbn/9780441172719-M.jpg" alt="Dune book cover" />
+            </div>
+            <div class="book-info">
+            <strong>Dune</strong>
+            <p class="meta">Format: Audiobook | Source: Library | Priority: 5</p>
+            <p class="pitch">A tale of politics, religion, and the future of humanity on the desert planet Arrakis. A dive into a mind-bending universe.</p>
+          </td>
+          <td>Frank Herbert</td>
+          <td>Sci-Fi</td>
+          <td><span class="status">Read</span></td>
+          <td>
+            <span class="rate two"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="read">
+          <td class="left main-cell">
+            <div class="book-image">
+              <!-- Siddhartha -->
+              <img src="https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg" alt="Siddhartha book cover" />
+            </div>
+            <div class="book-info">
+            <strong>Siddhartha</strong>
+            <p class="meta">Format: eBook | Source: Borrowed | Priority: 6</p>
+            <p class="pitch">A young man's journey of self-discovery and enlightenment in ancient India.</p>
+          </td>
+          <td>Hermann Hesse</td>
+          <td>Philosophy</td>
+          <td><span class="status">Read</span></td>
+          <td>
+            <span class="rate three"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+        <tr class="read">
+          <td class="left main-cell">
+            <div class="book-image">
+              <!-- Storytelling with Data -->
+            <img src="https://covers.openlibrary.org/b/isbn/9781119002253-M.jpg" alt="Storytelling with Data book cover" />
+            </div>
+            <div class="book-info">
+            <strong>Storytelling with Data</strong>
+            <p class="meta">Format: Print | Source: University library | Priority: 7</p>
+            <p class="pitch">How numbers and data can be used to tell compelling stories and inform decision-making.</p>
+          </td>
+          <td>Cole Nussbaumer Knaflic</td>
+          <td>Data</td>
+          <td><span class="status">Read</span></td>
+          <td>
+            <span class="rate one"><span></span><span></span><span></span></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section class="summary">
+      <h2>Why These Books?</h2>
+      <p>I chose these books to match what I’m curious about right now: stories, history, nature, and data. Fantasy and science fiction like <span class="read-color">The Hobbit</span>, <span class="read-color">Dune</span>, and <span class="to-read-color">Piranesi</span> keep my imagination active, while <span class="read-color">Siddhartha</span> gives me space to think about purpose. On the nonfiction side, <span class="in-progress-color">When the War Was Over</span> helps me understand Cambodia’s past, and <span class="read-color">Storytelling with Data</span> connects directly to my studies in data and information systems.</p>
+      <p>My next two are <span class="to-read-color">Piranesi</span> and <span class="to-read-color">Braiding Sweetgrass</span>. <span class="to-read-color">Piranesi</span> comes first because it’s a lighter, imaginative read after a dense history book. <span class="to-read-color">Braiding Sweetgrass</span> is second because it speaks to my interest in conservation and science communication, and I want to learn how to write about nature in a way that makes people care. Together they balance escape with purpose.</p>
+    </section>
+  </body>
+</html>
